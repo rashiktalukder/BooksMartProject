@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksMartProject", "BooksMartProject\BooksMartProject.csproj", "{4C8462CC-C980-4F64-A747-FDA9C294BA44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksMartProject.DataAccess", "BooksMartProject.DataAccess\BooksMartProject.DataAccess.csproj", "{08DEB909-0851-49ED-A100-D8232D32E959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksMartProject.Models", "BooksMartProject.Models\BooksMartProject.Models.csproj", "{8D3C5C26-6143-4BF2-BD3B-A5FD5835837D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksMartProject.Utility", "BooksMartProject.Utility\BooksMartProject.Utility.csproj", "{D728C61A-8EF4-452D-956D-04E95FBCCDCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{4C8462CC-C980-4F64-A747-FDA9C294BA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C8462CC-C980-4F64-A747-FDA9C294BA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C8462CC-C980-4F64-A747-FDA9C294BA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DEB909-0851-49ED-A100-D8232D32E959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DEB909-0851-49ED-A100-D8232D32E959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DEB909-0851-49ED-A100-D8232D32E959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DEB909-0851-49ED-A100-D8232D32E959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3C5C26-6143-4BF2-BD3B-A5FD5835837D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3C5C26-6143-4BF2-BD3B-A5FD5835837D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3C5C26-6143-4BF2-BD3B-A5FD5835837D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3C5C26-6143-4BF2-BD3B-A5FD5835837D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D728C61A-8EF4-452D-956D-04E95FBCCDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D728C61A-8EF4-452D-956D-04E95FBCCDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D728C61A-8EF4-452D-956D-04E95FBCCDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D728C61A-8EF4-452D-956D-04E95FBCCDCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

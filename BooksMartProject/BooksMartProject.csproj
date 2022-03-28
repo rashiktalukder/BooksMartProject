@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BooksMartProject.DataAccess\BooksMartProject.DataAccess.csproj" />
+    <ProjectReference Include="..\BooksMartProject.Models\BooksMartProject.Models.csproj" />
+    <ProjectReference Include="..\BooksMartProject.Utility\BooksMartProject.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
