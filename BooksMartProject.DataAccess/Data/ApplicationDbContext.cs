@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BooksMartProject.Models;
 
 namespace BooksMartProject.DataAccess.Data
 {
@@ -12,5 +13,6 @@ namespace BooksMartProject.DataAccess.Data
             : base(options)
         {
         }
+        public DbSet<Category> CategoryModel { get; set; }
     }
 }
