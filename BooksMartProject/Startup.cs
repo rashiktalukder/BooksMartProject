@@ -1,5 +1,7 @@
 
 using BooksMartProject.DataAccess.Data;
+using BooksMartProject.DataAccess.Repository;
+using BooksMartProject.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +37,11 @@ namespace BooksMartProject
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
             services.AddControllersWithViews();
         }
 
