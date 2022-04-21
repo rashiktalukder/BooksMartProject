@@ -14,5 +14,7 @@ namespace BooksMartProject.DataAccess.Data
         {
         }
         public DbSet<Category> CategoryModel { get; set; }
+        public DbSet<CoverType> CoverTypesModel { get; set; }
+
     }
 }

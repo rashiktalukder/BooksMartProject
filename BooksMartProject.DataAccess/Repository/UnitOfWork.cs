@@ -16,15 +16,18 @@ namespace BooksMartProject.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
             SP_Call = new Store_Procedure_Calls(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepository CoverType { get; private set; }
         public IStore_Procedure_Calls SP_Call{ get; private set; }
+
 
         public void Dispose()
         {
-           _db.Dispose();
+            _db.Dispose();
         }
 
         public void Save()

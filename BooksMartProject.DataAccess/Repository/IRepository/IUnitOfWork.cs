@@ -10,6 +10,12 @@ namespace BooksMartProject.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
 
+        ICoverTypeRepository CoverType{ get; }
+
         IStore_Procedure_Calls SP_Call { get; }
+
+        /*ICoverTypeRepository CoverType { get; }*/
+
+        void Save();
     }
 }
